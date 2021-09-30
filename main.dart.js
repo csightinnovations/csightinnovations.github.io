@@ -28256,7 +28256,7 @@ o=P
 n="sellguds-s-key"
 s=3
 return P.Q(Y.al0(),$async$Sf)
-case 3:q=o.J([n,b,"type","business","Content-type","application/json"],p,p)
+case 3:q=o.J([n,b,"type","business","Content-type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","POST, OPTIONS, GET, PUT, DELETE"],p,p)
 s=1
 break
 case 1:return P.C(q,r)}})
